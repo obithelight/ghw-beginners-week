@@ -23,3 +23,40 @@ ol {
   color: #1d1d1d;
   font-family: sans-serif;
 }
+
+/* navbar */
+.navbar {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.navbar menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: #f8f806;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* code block */
+pre {
+  background-color: #f1f5f9;
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+code {
+  color: gray;
+  font-family: monospace;
+}

@@ -1,0 +1,85 @@
+* {
+  font-family: sans-serif;
+  /* background-color: aliceblue; */
+}
+
+.pomodoro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pomodoro_timer {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.pomodoro_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.pomodoro_buttons button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.pomodoro_buttons #start {
+  background-color: rgb(16, 228, 16);
+  color: #ffffff;
+}
+
+.pomodoro_buttons #pause {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+}
+
+.pomodoro_buttons #reset {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.pomodoro_settings {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pomodoro_settings label {
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.pomodoro_settings input {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+.pomodoro_status {
+  font-size: 1.5rem;
+  font-weight: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.pomodoro_progress {
+  background-color: #bcbcbc;
+  width: 300px;
+  height: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  overflow: hidden;
+}
